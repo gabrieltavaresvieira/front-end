@@ -1,0 +1,217 @@
+/* Estilos gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos específicos para a seção de destaques */
+
+#destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.destaque {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.destaque img {
+  width: 100%;
+  height: auto;
+}
+
+.destaque h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.destaque p {
+  font-size: 16px;
+}
+
+.destaque .preco {
+  font-weight: bold;
+}
+
+.destaque .promocao {
+  color: #4CAF50;
+  font-style: italic;
+}
+
+/* Estilos para o rodapé */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Estilos gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos específicos para a seção de destaques */
+
+#destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.destaque {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.destaque img {
+  max-width: 100%; /* Ajusta a largura máxima da imagem para o tamanho da caixa pai */
+  height: auto; /* Garante que a altura seja ajustada proporcionalmente */
+}
+
+.destaque h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.destaque p {
+  font-size: 16px;
+}
+
+.destaque .preco {
+  font-weight: bold;
+}
+
+.destaque .promocao {
+  color: #4CAF50;
+  font-style: italic;
+}
+
+/* Estilos para o rodapé */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px 0;
+}
+/* Estilos específicos para a seção de destaques */
+
+#destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.destaque {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.destaque img {
+  max-width: 100%; /* Ajusta a largura máxima da imagem para o tamanho da caixa pai */
+  height: auto; /* Garante que a altura seja ajustada proporcionalmente */
+  display: block; /* Evita espaços em branco abaixo das imagens */
+}
+
+.destaque h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.destaque p {
+  font-size: 16px;
+}
+
+.destaque .preco {
+  font-weight: bold;
+}
+
+.destaque .promocao {
+  color: #4CAF50;
+  font-style: italic;
+}
